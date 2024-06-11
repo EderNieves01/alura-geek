@@ -1,0 +1,133 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+nav {
+    background-color: #333;
+    /* padding: 1em; */
+    text-align: center;
+}
+
+nav img {
+    height: 50px;
+    width: 100%;
+}
+
+.container {
+    display: flex;
+    height: calc(100vh - 100px); /* Altura total menos la altura del navbar y footer */
+}
+.title-products{
+    margin-top: 50px;
+    width: auto;
+    text-align: center;
+}
+.left-section, .right-section {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.left-section {
+    margin-top: 0px;
+    margin: 10px;
+    flex-direction: column;
+}
+
+.left-section .content{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+.card {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    text-align: center;
+}
+.delete-button button{
+    background-color: red;
+    padding: 5px;
+    color: white;
+    border-style: none;
+    border-radius: 5px;
+}
+.img-card img{
+    width: 100px;
+    height: 100px;
+}
+.right-section {
+    background-color: #e0e0e0;
+}
+
+
+.left-section .content, .right-section .content {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.left-section .content img{
+    display: block;
+    margin: 10px auto;
+}
+
+.right-section form {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    max-width: 600px;
+}
+
+.right-section form label {
+    margin: 10px 0 5px;
+}
+
+.right-section form input, .right-section form textarea, .right-section form button {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+.title-add{
+    font-size: larger;
+    font-weight: 700;
+    text-align: center;
+}
+.btns{
+    display: flex;
+    justify-content: space-around;
+}
+
+
+#btn-enviar{
+    color: white;
+    background-color: rgba(0, 4, 255, 0.637);
+    border-style: none;
+    border-radius: 1rem;
+   width: 200px;
+}
+#btn-limpiar{
+    color: black;
+    border-radius: 1rem;
+    width: 200px;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1em;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página Web con Navbar y Secciones</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <img src="assets/image.png" alt="Logo">
+    </nav>
+    
+    
+    <div class="container">
+        <div class="left-section">
+            <div class="title-products">
+                <h2>Mis Productos</h2>   
+            </div>
+            <div class="content" id="product-grid">
+                <!-- cards -->
+                
+            </div>
+        </div>
+        <div class="right-section">
+            <div class="content">
+                <form id="formulario">
+                    <label class="title-add">Agregar Productor</label>
+                    <label for="name">Nombre</label>
+                    <input type="text" id="name" name="name">
+                    <label for="precio">Precio</label>
+                    <input type="number" id="precio" name="email">
+                    <label for="imagen">Imagen</label>
+                    <input type="text" id="imagen" name="phone">
+                    <label for="descripcion">descripcion</label>
+                    <textarea id="descripcion" name="descripcion"></textarea>
+                    <div class="btns">
+                        <button id="btn-limpiar" type="submit">limpiar</button>   
+                      <button id="btn-enviar" type="submit">Enviar</button>
+                    </div>
+                   
+                </form>
+            </div>
+        </div>
+    </div>
+    
+    <footer>
+        &copy; 2024 Eder Samir Nieves Baez. Todos los derechos reservados.
+    </footer>
+    <script type="module" src="js/controllers/app.js"></script>
+    <!-- <script  src="js/controllers/app.js"></script> -->
+</body>
+</html>

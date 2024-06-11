@@ -1,0 +1,29 @@
+{
+  "products": [
+    {
+      "name": "One Piece Figura",
+      "price": "50",
+      "image": "https://imagenes.20minutos.es/files/image_640_360/uploads/imagenes/2022/10/05/one-piece-film-red.jpeg",
+      "description": "llevatelo a mitad de precio"
+    },
+    {
+      "name": "One Piece Figura",
+      "price": "50",
+      "image": "https://imagenes.20minutos.es/files/image_640_360/uploads/imagenes/2022/10/05/one-piece-film-red.jpeg",
+      "description": "llevatelo a mitad de precio"
+    },
+    {
+      "name": "One Piece Figura",
+      "price": "50",
+      "image": "https://imagenes.20minutos.es/files/image_640_360/uploads/imagenes/2022/10/05/one-piece-film-red.jpeg",
+      "description": "llevatelo a mitad de precio"
+    },
+    {
+      "id": "aac1",
+      "name": "ewfrdgs",
+      "price": "12345",
+      "image": "https://static.wikia.nocookie.net/naruto/images/1/12/La_Promesa_de_Naruto.png/revision/latest?cb=20110825232746&path-prefix=es",
+      "description": "qrewgedf"
+    }
+  ]
+}
